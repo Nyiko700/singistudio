@@ -1,0 +1,107 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f8f5f2;color:#171515;font-family:"DM Sans",Arial,sans-serif}a{color:inherit;text-decoration:none}.site-header{height:82px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;background:#101010;color:#fff;position:sticky;top:0;z-index:20}.brand{display:flex;flex-direction:column;line-height:.8;letter-spacing:-.07em}.brand-mark{font-size:2rem;font-weight:700;letter-spacing:-.08em}.brand-sub{font-size:.56rem;letter-spacing:.45em;margin:8px 0 0 4px}.nav{display:flex;align-items:center;gap:34px;font-size:.88rem}.nav a{opacity:.86}.nav a:hover{opacity:1}.nav .nav-cta{background:#e9a7c7;color:#1b1117;padding:12px 19px;border-radius:30px;font-weight:700}.menu-toggle{display:none;background:none;border:0;color:white;font-size:1.7rem}.hero{min-height:660px;background:radial-gradient(circle at 75% 45%,#4a4143,#191718 55%,#101010);color:white;padding:80px 9%;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:45px;overflow:hidden}.eyebrow{font-size:.72rem;letter-spacing:.22em;font-weight:700;color:#bd46b5;margin:0 0 18px}.hero h1{font-size:clamp(3.4rem,7vw,6.5rem);line-height:.98;letter-spacing:-.07em;margin:0;font-weight:700}.hero h1 em,.intro h2 em,.booking h2 em{font-family:"Playfair Display",serif;font-weight:600;color:#e9a7c7}.hero-copy{max-width:470px;color:#d2cbcd;line-height:1.8;margin:25px 0}.hero-actions{display:flex;align-items:center;gap:25px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;padding:15px 23px;border-radius:30px;font-size:.9rem;font-weight:700;transition:transform .2s}.button:hover{transform:translateY(-3px)}.button-light{background:#e9a7c7;color:#171114}.text-link{font-size:.9rem}.text-link span{color:#e9a7c7}.hero-note{margin-top:35px;color:#bcb3b6;font-size:.8rem;letter-spacing:.08em}.hero-art{height:480px;position:relative}.hero-image{position:absolute;width:56%;height:360px;border:7px solid #f4e5eb;box-shadow:0 20px 50px #0008;overflow:hidden;border-radius:5px;background:#333}.hero-image img{width:100%;height:100%;object-fit:cover;object-position:top}.hero-image-one{top:5px;left:7%;transform:rotate(-7deg)}.hero-image-two{right:1%;bottom:5px;transform:rotate(7deg)}.hero-stamp{position:absolute;bottom:4%;left:25%;background:#171515;border:1px solid #e9a7c7;border-radius:50%;width:125px;height:125px;display:grid;place-content:center;text-align:center;color:#e9a7c7;font-family:"Playfair Display",serif;font-size:.85rem;line-height:1.4;transform:rotate(-12deg)}.section-wrap{padding-left:9%;padding-right:9%}.intro{text-align:center;padding-top:100px;padding-bottom:100px;max-width:900px;margin:auto}.intro h2,.section-heading h2,.booking h2{font-size:clamp(2.4rem,4vw,3.8rem);letter-spacing:-.06em;line-height:1.05;margin:0 0 18px}.intro>p:last-child{color:#71696a;line-height:1.8;max-width:570px;margin:0 auto}.services{padding-top:25px;padding-bottom:110px}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:35px}.section-heading>p{max-width:340px;color:#746d6d;line-height:1.7;margin:0 0 5px}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-card{min-height:300px;padding:30px;border-radius:5px;position:relative;overflow:hidden}.lash-card { background-image: url("images/new-lash-photo.jpg"); background-position: center 34%; background-size: cover; }.henna-card { background-image: url("images/floral-henna-hand.jpg"); background-position: center 42%; background-size: cover; }.tattoo-card { background-image: url("images/lion-clock-tattoo.jpeg"); background-position: center 48%; background-size: cover; }.service-number{font-size:.7rem;letter-spacing:.15em;color:#777}.service-icon{font-size:2rem;margin:35px 0 15px}.service-card h3{font-family:"Playfair Display",serif;font-size:1.7rem;margin:0 0 10px}.service-card p{color:#5f5858;line-height:1.7;font-size:.9rem;max-width:300px}.card-link{display:inline-block;margin-top:12px;font-size:.85rem;font-weight:700;border-bottom:1px solid #171515;padding-bottom:4px}.price-section{background:#171516;color:#fff;padding:100px 0}.price-heading>p{color:#bcb4b7}.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;align-items:start}.price-card{background:#242122;border:1px solid #41393c;padding:27px 24px;border-radius:5px}.price-top{display:flex;justify-content:space-between;align-items:center;color:#e9a7c7}.price-label{font-size:.65rem;letter-spacing:.16em;font-weight:700}.price-symbol{font-size:1.5rem}.price-card h3{font-family:"Playfair Display",serif;font-size:1.7rem;margin:20px 0}.price-list{list-style:none;padding:0;margin:0}.price-list li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid #41393c;font-size:.82rem;color:#d6cfd1}.price-list strong{white-space:nowrap;color:#fff}.small-note{font-size:.75rem;color:#c7bfc1;line-height:1.6;margin-top:20px}.gallery{padding-top:100px;padding-bottom:110px}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:300px;gap:16px}.gallery-item{position:relative;overflow:hidden;border-radius:5px;background:#222}.gallery-item img{width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .4s}.gallery-item:hover img{transform:scale(1.04)}.gallery-item span{position:absolute;bottom:0;left:0;right:0;padding:30px 20px 18px;color:white;font-weight:700;background:linear-gradient(transparent,#000b)}.gallery-tall{grid-row:span 2}.booking{background:#e9a7c7;text-align:center;padding:90px 20px}.booking .eyebrow{color:#6e2c68}.booking h2{font-size:clamp(2.7rem,5vw,4.5rem)}.booking h2 em{color:#fff}.booking p:not(.eyebrow){color:#4d3943;margin:0 auto 25px;line-height:1.7}.button-dark{background:#171516;color:white}footer{background:#101010;color:#fff}.footer-main{padding-top:65px;padding-bottom:55px;display:grid;grid-template-columns:1.2fr 1.3fr 1fr 1fr;gap:35px}.footer-brand .brand-mark{font-size:2.1rem}.footer-tagline{font-family:"Playfair Display",serif;color:#e9a7c7;font-style:italic}.footer-column h4{font-size:.85rem;margin:0 0 16px}.footer-column p{font-size:.8rem;line-height:1.9;color:#c2babc;margin:0}.footer-column a:hover,.footer-bottom a:hover{color:#e9a7c7}.footer-column span{color:#e9a7c7}.footer-bottom{border-top:1px solid #302b2d;padding:20px 9%;display:flex;justify-content:space-between;color:#9e9698;font-size:.72rem}
+@media(max-width:850px){.hero{padding:65px 7%;grid-template-columns:1fr;gap:20px}.hero-art{height:400px;max-width:600px;width:100%;margin:auto}.hero-image{height:310px}.section-wrap{padding-left:7%;padding-right:7%}.price-grid{grid-template-columns:1fr 1fr}.price-card:last-child{grid-column:span 2}.footer-main{grid-template-columns:1fr 1fr}.service-card{padding:22px}.section-heading{align-items:start;flex-direction:column;gap:12px}}
+@media(max-width:600px){.site-header{height:70px;padding:0 6%}.menu-toggle{display:block}.nav{display:none;position:absolute;top:70px;left:0;right:0;background:#101010;padding:20px 7% 28px;flex-direction:column;align-items:stretch;gap:20px}.nav.open{display:flex}.nav .nav-cta{text-align:center}.hero{padding:65px 7% 35px;min-height:auto}.hero h1{font-size:clamp(3.5rem,16vw,5.2rem)}.hero-art{height:330px}.hero-image{height:260px;width:60%;border-width:5px}.hero-stamp{width:95px;height:95px;font-size:.7rem}.intro{padding-top:75px;padding-bottom:75px}.services,.gallery{padding-bottom:75px}.service-grid{grid-template-columns:1fr}.service-card{min-height:250px}.service-icon{margin-top:22px}.price-section{padding:75px 0}.price-grid{grid-template-columns:1fr}.price-card:last-child{grid-column:auto}.price-heading{margin-bottom:25px}.gallery-grid{grid-template-columns:1fr 1fr;grid-auto-rows:240px}.gallery-tall{grid-row:auto}.footer-main{grid-template-columns:1fr 1fr;gap:30px 20px;padding-top:50px}.footer-bottom{padding:18px 7%;gap:15px;flex-wrap:wrap}.booking{padding:75px 7%}}
+
+
+/* SINGI Studio brand logo */
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  width: clamp(112px, 17vw, 190px);
+  max-width: 42vw;
+  flex: 0 0 auto;
+  text-decoration: none;
+  line-height: 0;
+  position: relative;
+  z-index: 5;
+}
+.brand-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 76px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+
+/* Location and embedded map */
+.location-section { padding-top: 88px; padding-bottom: 88px; }
+.location-layout { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(260px, .8fr); gap: 28px; align-items: stretch; }
+.location-map { min-height: 390px; overflow: hidden; border-radius: 18px; background: #eee; box-shadow: 0 14px 38px rgba(0,0,0,.10); }
+.location-map iframe { display: block; width: 100%; height: 100%; min-height: 390px; border: 0; }
+.location-details { padding: 30px; border-radius: 18px; background: #f8edf2; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
+.location-details h3 { margin: 8px 0 12px; }
+.location-details p { line-height: 1.7; }
+.location-hours { margin-top: 18px; }
+.location-details .button { margin-top: 12px; }
+.location-note { margin-top: 16px; font-size: .82rem; opacity: .72; line-height: 1.5; }
+@media (max-width: 760px) {
+  .location-section { padding-top: 58px; padding-bottom: 58px; }
+  .location-layout { grid-template-columns: 1fr; }
+  .location-map, .location-map iframe { min-height: 300px; }
+  .location-details { padding: 24px; }
+}
+
+
+/* Service cards now use the three newly supplied photos as full-card backgrounds */
+.service-card {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  isolation: isolate;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(12,10,12,.12) 0%, rgba(12,10,12,.45) 42%, rgba(12,10,12,.88) 100%);
+}
+.service-card > * { position: relative; z-index: 1; }
+.service-card .service-number { color: #f6dce8; }
+.service-card .service-icon { margin: 28px 0 10px; color: #f4b5d0; }
+.service-card h3 { color: #fff; }
+.service-card p { color: #f3e9ed; }
+.service-card .card-link { color: #fff; border-color: #f4b5d0; }
+.lash-card { background-image: url("images/new-lash-photo.jpg"); background-position: center 34%; background-size: cover; }
+.henna-card { background-image: url("images/floral-henna-hand.jpg"); background-position: center 42%; background-size: cover; }
+.tattoo-card { background-image: url("images/lion-clock-tattoo.jpeg"); background-position: center 48%; background-size: cover; }
+@media (max-width: 600px) {
+  .service-card { min-height: 300px; }
+}
+
+/* House-call booking information */
+.house-call-info {
+  max-width: 620px;
+  margin: 24px auto;
+  padding: 20px 24px;
+  border: 1px solid rgba(77, 57, 67, 0.28);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.28);
+}
+.house-call-info h3 {
+  margin: 0 0 10px;
+  color: #4d3943;
+  font-family: "Playfair Display", serif;
+  font-size: 1.45rem;
+}
+.house-call-info p { margin: 8px auto !important; }
+
+/* Updated service board photo styling */
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.18), rgba(0,0,0,.72));
+  z-index: 0;
+}
+.service-card > * { position: relative; z-index: 1; color: #fff; }
+.service-card .service-number,
+.service-card p { color: #fff; }
+.service-card .card-link { border-color: #fff; }

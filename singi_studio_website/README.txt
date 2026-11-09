@@ -1,0 +1,1 @@
+SINGI Studio website. Open index.html to preview locally. The images folder contains the logo and the two latest customer-supplied photos. For publishing, upload this entire folder to your Netlify site.
